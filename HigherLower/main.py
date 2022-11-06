@@ -25,19 +25,19 @@ def random_brand(datafram=rank_brand):
 if __name__ == '__main__':
     score = 0
     while True:
-        brand_1, brand_2 = random_brand(), random_brand()  # Generate guessing brand
-        if brand_1 == brand_2:
+        brand_1, brand_2 = random_brand(), random_brand()  # Generate random brands
+        if brand_1 == brand_2:  # incase duplicate brands
             brand_2 = random_brand()
         b1_rank, b1_follower = rank_follower(brand_1)
         b2_rank, b2_follower = rank_follower(brand_2)
-        if b1_rank < b2_rank:
+        if b1_rank < b2_rank:  # whcik brand had more followers
             answer = 'Y'
         else:
             answer = 'N'
         print(f'\'{brand_1}\' has more follower than \'{brand_2}\'')
-        guess = input('Y or N: ')
+        guess = input('Y or N: ')  # input guess
 
-        if answer in guess.upper():
+        if answer in guess.upper():  # get score if correct, end if incorrect
             score += 1
             print(
                 f'Good job! {brand_1}: {b1_follower},  {brand_2}: {b2_follower}\nScore:{score}')
