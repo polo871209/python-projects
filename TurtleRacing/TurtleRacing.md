@@ -2,9 +2,10 @@
 **Guess which color of turtle will win the race**  
 Inspire by python build-in module [Turtle](https://docs.python.org/3/library/turtle.html)
 ## Results
-**First input your guess**  
+#### Input your guess
 ![image](https://github.com/polo871209/projects/blob/main/TurtleRacing/input.png)  
-**Then the race start**  
+#### Start racing!
+  
 ![image](https://github.com/polo871209/projects/blob/main/TurtleRacing/turtle%20racing.gif)  
 **Output result in the console**  
 ```python
