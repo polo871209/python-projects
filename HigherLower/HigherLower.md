@@ -8,6 +8,8 @@ Dataset from Kaggle: **[Top Most Followed on Instagram 2019](https://www.kaggle.
 ## Results
 ![alt text](https://github.com/polo871209/projects/blob/main/HigherLower/result.png?raw=true)
 
+### [Code Here](https://github.com/polo871209/projects/blob/main/HigherLower/main.py)
+
 ### CSV to Dataframe using Pandas
 Where I only need RANK, BRAND, FOLLOWERS three columes.
 ```python
@@ -59,3 +61,4 @@ if __name__ == '__main__':
                 f'Failed! {brand_1}: {b1_follower},  {brand_2}: {b2_follower}\nScore:{score}')
             break
 ```
+

@@ -19,7 +19,7 @@ def random_value(i=10):
     return unique_value
 
 
-def chrom(url):
+def chrom(url): 
     options = webdriver.ChromeOptions()
     options.add_experimental_option('detach', True)
     driver = os.path.join(sys.path[0], 'chromedriver.exe')
