@@ -3,6 +3,7 @@
 Inspire by myself  
 selenium version: 4+  
 OS: Windows 10  
+Install web driver [here](https://selenium-python.readthedocs.io/installation.html#drivers)
 ## Results
 #### Start generate!
 ![image](https://github.com/polo871209/projects/blob/main/GoogleAccount/result.gif) 
