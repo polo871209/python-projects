@@ -1,8 +1,8 @@
 # Generate Google Account
 **Auto generate google account using selenium**  
-Inspire by myself
-selenium version: 4+
-OS: windows
+Inspire by myself  
+selenium version: 4+  
+OS: Windows 10  
 ## Results
 #### Start generate!
 ![image](https://github.com/polo871209/projects/blob/main/GoogleAccount/result.gif) 
