@@ -12,7 +12,7 @@ Inspire by python build-in module [Turtle](https://docs.python.org/3/library/tur
 Winner is red turtle!, you win!
 Click to exit
 ```
-### [Code Here](https://github.com/polo871209/projects/blob/main/GoogleAccount/main.py)
+### [Code Here](https://github.com/polo871209/projects/blob/main/TurtleRacing/main.py)
 ### Setting up screen and input prompt
 ```python
 screen = Screen()
