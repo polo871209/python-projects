@@ -33,11 +33,10 @@ all_movies = soup.find_all(name='h3', class_='title')
 ```
 ### Get all movie text
 ```python
-for movie in all_movies:
-    data = movie.getText().replace(')', '.')
-    movies_lst.append(data)
+movies_lst = [movie.getText().replace(')', '.')
+              for movie in all_movies[::-1]]
 ```
-### Write files in order
+### Write file
 ```python
 def main():
     for movie in movies_lst[::-1]:
