@@ -1,7 +1,7 @@
 # HigherLower game
 
 **Comparing which instagram brand/celebrity had more followers**  
-Inspire by **[higherlower gamee](http://www.higherlowergame.com/ "higherlowergame.com")**  
+Inspire by **[higherlower game](http://www.higherlowergame.com/ "higherlowergame.com")**  
 
 Dataset from Kaggle: **[Top Most Followed on Instagram 2019](https://www.kaggle.com/datasets/tanujdhiman/top-most-followed-on-instagram "kaggle.com")**  
 
